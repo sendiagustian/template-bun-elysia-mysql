@@ -8,9 +8,9 @@ export const swaggerMiddleware = () => {
         path: "/docs",
         documentation: {
             info: {
-                title: "Protonema - Toko Online (SOSPET PRO) API",
+                title: "SendiStudio API",
                 version: "1.0.0",
-                description: "API documentation for Protonema - Toko Online (SOSPET PRO)",
+                description: "API documentation for SendiStudio",
             },
             servers: [{ url: Bun.env.MODE === "development" ? `http://${HOST}:${PORT}` : `https://${HOST}` }],
         },
